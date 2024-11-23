@@ -11,7 +11,7 @@ from src.preprocess import get_qa_pairs, transform_data, fix_json_structure
 from src.llm_groq import generate_summary
 from src.convert_to_pdf import create_pdf_from_json
 
-st.title("PDF QA Processor")
+st.title("Question and Answer Summerization")
 st.write("Upload your PDF documents, and we'll extract and process the QA pairs.")
 
 # Directory to temporarily store uploaded PDFs
